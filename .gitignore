@@ -1,0 +1,21 @@
+# Machine-local configuration and chunk indexes
+env.json
+*-env.json
+scripts/found.json
+bgm-index.json
+
+# Local third-party binaries, keys and media
+tools/
+*.npck
+*.wem
+*.mp3
+*.wav
+*.ogg
+*.flac
+
+# Working directories and generated artifacts
+_工程/
+.tmp/
+.mhwi-*/
+__pycache__/
+*.pyc
